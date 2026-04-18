@@ -83,7 +83,7 @@
 - ОС: Windows 10/11
 - GPU: NVIDIA с поддержкой CUDA
 - ПО: CUDA Toolkit 11.8+, Visual Studio Build Tools (MSVC)
-- Python 3.8+ с библиотеками: `numpy`, `matplotlib`
+- Python 3.8+ с библиотеками: `numpy`, `matplotlib`.
 
 ### Компиляция
 nvcc -arch=sm_86 -o lab4.exe matrix_cuda.cu
